@@ -12,7 +12,7 @@ const Countries = () => {
     return (
         <div id="countries">
             <h1 className='text-light pt-4'>Countries Info</h1>
-            <div id="countries-container">
+            <div id="countries-container" className='row mx-auto'>
             {
                 countries.map(country=> <Country
                     country={country}
